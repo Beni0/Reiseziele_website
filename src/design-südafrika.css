@@ -1,0 +1,130 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    background-color: rgb(221, 194, 164);
+    color: black;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+  }
+  header {
+    background-color: #503931;
+    height: 80px;
+    padding: 2px;
+  }
+  header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+  .main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    word-spacing: 30px;
+    line-height: 32px;
+    background-color: #898a4d;
+  }
+  
+  ul.main_menu {
+    margin-top: 15px;
+  }
+  
+  .main_menu li {
+    display: inline;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+  }
+  .main_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0 5px 0;
+    font-variant: small-caps;
+  }
+  .main_menu a:hover {
+    color: rgb(196, 170, 141);
+  }
+
+.checkbox1{
+    background-color: rgb(90, 77, 59) ;
+    color: white;
+
+}
+
+img{
+    float: right;
+    margin: 5px;
+    width: 180px;
+    height: 120px;
+
+}  
+
+.left{
+width: 300px;
+
+}
+
+.right{
+width: auto;
+}
+
+li{
+    color: black;
+
+}
+
+.südafrika{
+    text-align: center;
+}
+
+.example {
+    position: relative;
+    padding: 0;
+    width: 300px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .content {
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    color: rgb(90, 77, 59);
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    transition: all 500ms ease-out; 
+    text-align: center;
+  }
+  
+  .example .content:hover {
+    opacity: 1;
+  }
+
+  .example .content .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+  video{
+    margin-top: 20px;
+  }

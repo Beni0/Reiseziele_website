@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link type="text/css" rel="stylesheet" href="zielSuche.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function suche(){
+        let strandRadioButton = document.getElementById("strand");
+        let bergeRadioButton = document.getElementById("berge");
+        let warmRadioButton = document.getElementById("warm");
+        let kaltRadioButton = document.getElementById("kalt");
+        let deutschCheckBox = document.getElementById("deutsch");
+        let englischCheckBox = document.getElementById("englisch");
+        let französischCheckBox = document.getElementById("französisch");
+        let portugiesischCheckBox = document.getElementById("portugiesisch");
+        let hindiCheckBox = document.getElementById("hindi");
+        let scharfCheckBox = document.getElementById("scharf");
+        let würzigCheckBox = document.getElementById("würzig");
+        let mildCheckBox = document.getElementById("würzig");
+        let sehrsicherRadioButton = document.getElementById("sehrsicher");
+        let sicherRadioButton = document.getElementById("sicher");
+        let wenigersicherRadioButton = document.getElementById("wenigersicher");
+        let garnichtsicherRadioButton = document.getElementById("garnichtsicher");
+        let sehrstabilRadioButton = document.getElementById("sehrstabil");
+        let stabilRadioButton = document.getElementById("stabil");
+        let wenigerstabilRadioButton = document.getElementById("wenigerstabil");
+
+        let afrika = true;
+        let australien= true;
+        let brasilien= true;
+        let indien= true;
+        let Reiseziel;
+
+      /*  if (strandRadioButton.checked) {
+          
+        } else if (bergeRadioButton.checked) {
+          
+        }
+        if (warmRadioButton.checked){
+        
+        } */
+        if (kaltRadioButton.checked){
+          set (afrika) = false;
+          set (australien) = false;
+          set (brasilien)= false;
+          set (indien) = false;
+        }
+
+        if (deutschCheckBox.checked){
+          set (afrika) = false;
+          set (australien) = false;
+          set (brasilien)= false;
+          set (indien) = false;
+        }
+     /*   else if (englischCheckBox.checked){
+          
+        } */
+        else if (französischCheckBox.checked){
+          set (australien) = false;
+          set (brasilien)= false;
+          set (indien) = false;
+        }
+        else if (portugiesischCheckBox.checked){
+          set (afrika) = false;
+          set (australien) = false;
+          set (indien) = false;
+        }
+        else if (hindiCheckBox.checked){
+          set (afrika) = false;
+          set (australien) = false;
+          set (brasilien) = false;
+        }
+        else if (scharfCheckBox.checked){
+          
+        }
+        else if (würzigCheckBox.checked){
+         
+        }
+        else if (mildCheckBox.checked){
+          set (australien) = false;
+        } 
+        else if  (sehrsicherRadioButton.checked){
+          set (afrika) = false;
+          set (indien) = false;
+          set (brasilien) = false;
+        }
+        else if  (sicherRadioButton.checked){
+          set (indien) = false;
+          set (brasilien) = false;
+        }
+        else if  (wenigersicherRadioButton.checked){
+            set (brasilien) = false;
+        }
+        else if  (garnichtsicherRadioButton.checked){
+          
+        }
+        else if  (sehrstabilRadioButton.checked){
+            set (afrika) = false;
+        }
+        else if  (stabilRadioButton.checked){
+            
+            set (brasilien) = false;
+        }
+        else if  (wenigerstabilRadioButton.checked){
+            set (brasilien) = false;
+            set (indien) = false;
+        }
+       
+        if (afrika==true){
+        set (Reiseziel) = Reiseziel + " Afrika ";
+        }
+        if (australien==true){
+        set (Reiseziel) = Reiseziel + " Australien ";
+        }
+        if (brasilien==true){
+        set (Reiseziel) = Reiseziel + " Brasilien ";
+        }
+        if (indien==true){
+        set (Reiseziel) = Reiseziel + " Indien ";
+        }
+        else if(indien== false && afrika==false && australien==false && brasilien==false){
+            set (Reiseziel) = " konnte leider noch nicht gefunden werden. Wir arbeiten daran die Optionen auszubauen. ";
+        }
+            alert("Dein passendes Reiseziel ist" + Reiseziel);
+        }
+    </script> 
+
+    <div id="wrapper">
+        <header>
+          <h1>Reiseziele</h1>
+        </header>
+        <nav>
+         <ul class="main_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Südafrika.html">Südafrika</a></li>
+            <li><a href="Indien.html">Indien</a></li>
+            <li><a href="Australien.html">Australien</a></li>
+            <li><a href="Brasilien.html">Brasilien</a></li>
+            <li><a href="zielSuche.html">Zielsuche</a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+    
+        <div class="content-small1">
+            
+            Geografische Lage?
+
+        </div>
+    
+        <div class="content-small2">
+            <input type="radio" name="Lage" id="strand"/>Strand
+            </br> 
+            <input type="radio" name="Lage" id="berge"/>Berge
+        </div>
+
+        <div class="content-small3">
+            Klima?
+        </div>
+
+        <div class="content-small4">
+            <input type="radio" name="klima" id="warm"/>warm
+            </br> 
+            <input type="radio" name="klima" id="kalt"/>kalt
+           
+        </div>
+
+        <div class="content-small5">
+            Welche Sprachen kannst du sprechen?
+        </div>
+
+        <div class="content-small6">
+            <input type="checkbox" name="sprachen" id="deutsch" /> Deutsch
+            </br> 
+            <input type="checkbox" name="sprachen" id="englisch" /> Englisch
+            </br>  
+            <input type="checkbox" name="sprachen" id="französisch" /> Französisch
+            </br> 
+            <input type="checkbox" name="sprachen" id="hindi" /> Hindi
+            </br> 
+            <input type="checkbox" name="sprachen" id="portugiesisch" /> Portugiesisch
+        </div>
+
+        <div class="content-small7">
+            Welches Essen magst du?
+        </div>
+
+        <div class="content-small8">
+            <input type="checkbox" name="Essen" id="scharf" /> Scharf
+            </br> 
+            <input type="checkbox" name="Essen" id="würzig" /> Würzig
+            </br> 
+            <input type="checkbox" name="Essen" id="mild" /> Mild
+        </div>
+
+        <div class="content-small9">
+            Wie sicher soll deine Reise sein?
+        </div>
+
+        <div class="content-small10">
+            <input type="radio" name="sicherheit"  id="sehrsicher"/>sehr sicher 
+            </br> 
+            <input type="radio" name="sicherheit" id="sicher" />sicher
+            </br> 
+            <input type="radio" name="sicherheit" id="wenigersicher"/>weniger sicher 
+            </br> 
+            <input type="radio" name="sicherheit" id="garnichtsicher"/>gar nicht sicher
+       </div>
+
+        <div class="content-small11">
+            Wie stabil wirtschaftlich/finanziell soll das Land sein?
+        </div>
+
+        <div class="content-small12">
+            
+            <input type="radio" name="stabil" id="sehrstabil" /> sehr stabil
+            </br> 
+            <input type="radio" name="stabil" id="stabil" /> stabil
+            </br> 
+            <input type="radio" name="stabil" id="wenigerstabil" /> weniger stabil
+            
+        </div>
+        <br />
+        <button type="button" onclick="suche();">Los</button>
+        
+    </div>
+
+</body>
+
+</html>

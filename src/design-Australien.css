@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(235, 126, 93);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: thin;
+
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+  }
+  header {
+    background-color: rgb(235, 126, 93);
+    height: 80px;
+    padding: 2px;
+  }
+  header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+  .main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    word-spacing: 30px;
+    line-height: 32px;
+    background-color: #BA302B;
+  }
+  
+  ul.main_menu {
+    margin-top: 15px;
+  }
+  
+  .main_menu li {
+    display: inline;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+  }
+  .main_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0 5px 0;
+    font-variant: small-caps;
+  }
+  .main_menu a:hover {
+    color: rgb(235, 126, 93);
+  }
+
+.ul{
+  width:300px;
+}
+
+ol{
+  width:300px;
+}
+
+.article{
+  width: 370px;
+  border:blacK 6px solid;
+  background-color: #8A6E37;
+  color:#fff;
+  float:left;
+  margin:5px;
+}
+
+.article2{
+  width: 370px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #921d0f;
+  float:right;
+  margin:5px;
+}
+
+.article3{
+  text-align:center;
+  width: 780px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #DA6509;
+  float:left;
+  margin:5px;
+}
+
+.article4{
+  width: 350px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #72382A;
+  float:right;
+  margin:5px;
+}
+
+.article5{
+  width: 390px;
+border:blacK 6px solid;
+color:#fff;
+background-color: #8A6E37;
+float:left;
+margin:5px;
+}
+
+.article6{
+  width: 350px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #921d0f;
+  float:right;
+  margin:5px;
+}
+
+.article7{
+  width: 390px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #A6643D;
+  float:left;
+  margin:5px;
+}
+
+.article8{
+  width: 390px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #ECA325;
+  float:left;
+  margin:5px;
+}
+
+.article9{
+  width: 350px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #FB8345;
+  float:right;
+  margin:5px;
+}
+
+.article10{
+  width: 350px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #A6643D;
+  float:right;
+  margin:5px;
+}
+
+.article11{
+  width: 350px;
+  border:blacK 6px solid;
+  color:#fff;
+  background-color: #DA6509;
+  float:right;
+  margin:5px;
+  height:118px;
+}
+
+.article12{
+  width: 350px;
+  border: blue 6px solid;
+  background-color:aqua;
+  float:right;
+  margin:5px;
+}
+
+.img-art-kangurus{
+  width:400px;
+  float:right;
+}
+
+.img-art-uluru{
+  width:400px;
+  float:left;
+}
+
+.map-australien{
+  float:inline-end;
+}
+
+.img-art-see{
+  width:400px;
+  float:left;
+}
+
+.img-art-truck{
+  width:400px;
+  float:left;
+}
+

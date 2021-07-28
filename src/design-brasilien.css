@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(194, 162, 99);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: thin;
+
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+  }
+header {
+    background-color: rgb(245, 217, 92);
+    height: 80px;
+    padding: 2px;
+  }
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+.main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    word-spacing: 30px;
+    line-height: 32px;
+    background-color: rgb(214, 185, 19);
+  }
+  
+ul.main_menu {
+    margin-top: 15px;
+  }
+  
+.main_menu li {
+    display: inline;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+  }
+.main_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0 5px 0;
+    font-variant: small-caps;
+  }
+.main_menu a:hover {
+    color: rgb(245, 217, 92);
+  }
+
+img {
+   float: right;
+   margin: 10px;
+   height: 5cm;
+   width: auto; 
+   margin-top: 20px;
+   
+  
+   
+  }
+
+.AuswärtigesAmt{
+    background-color: burlywood; 
+    margin: 0cm;
+    max-height: 1cm;
+    margin-top: 0cm;
+    box-shadow:rgb(214, 185, 19);
+    text-align: center;
+  }
+
+  h4 {
+
+    text-align: center;
+  }
+
+
+
+    

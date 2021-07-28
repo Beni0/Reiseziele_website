@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(196, 170, 141);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    margin: auto;
+    text-align:float left;
+}
+h1 {
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 32px;
+  }
+
+  header{
+    background-color: rgb(196, 170, 141);
+    height: 80px;
+    padding: 2px;
+  }
+
+  header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+  .main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    word-spacing: 30px;
+    line-height: 32px;
+    background-color: rgb(126, 101, 73);
+  }
+  
+  ul.main_menu {
+    margin-top: 15px;
+  }
+  
+  .main_menu li {
+    display: inline;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+  }
+  .main_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0 5px 0;
+    font-variant: small-caps;
+  }
+  .main_menu a:hover {
+    color: rgb(196, 170, 141);
+  }
+
+  .container {
+    width: 800px;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 50px 50px 150px 100px 100px 100px 100px;
+    
+    gap: 10px;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.container div{
+    padding: 10 px;
+    border: 1px solid white; 
+}
+     
+
+.content-small1{
+   grid-row-start: 1 ;
+}
+.content-small2{
+   grid-row-start: 1 ;
+}
+.content-small3{
+    grid-row-start: 2 ;
+}
+.content-small4{
+    grid-row-start: 2 ;
+}
+.content-small5{
+    grid-row-start: 3 ;
+}
+.content-small6{
+    grid-row-start: 3 ;
+}
+.content-small7{
+    grid-row-start: 4 ;
+}
+.content-small8{
+    grid-row-start: 4 ;
+}
+.content-small9{
+    grid-row-start: 5 ;
+}
+.content-small10{
+    grid-row-start: 5 ;
+}
+.content-small11{
+    grid-row-start: 6 ;
+}
+.content-small12{
+    grid-row-start: 6 ;
+}

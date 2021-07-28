@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link type="text/css" rel="stylesheet" href="design-index.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <header>
+          <h1>Reiseziele</h1>
+        </header>
+        <nav>
+          <ul class="main_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Südafrika.html">Südafrika</a></li>
+            <li><a href="Indien.html">Indien</a></li>
+            <li><a href="Australien.html">Australien</a></li>
+            <li><a href="Brasilien.html">Brasilien</a></li>
+            <li><a href="zielSuche.html">Zielsuche</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    <br> 
+
+    <div>
+        <input type="checkbox" class="checkbox1" id="perfect" onclick="checkcheck()">
+        <label class="checkbox1" for= "perfect"> Hast du Lust auf etwas Neues?</label>
+        <button onclick="window.location.href='zielSuche.html'">Reiseziel-Suche</button>
+        <button onclick="window.location.href='../Videos/Packliste.pdf'">Packliste</button>
+      </div>
+  
+  
+
+    <script>
+      function checkcheck(){
+        var x = document.getElementById("perfect").checked;
+        alert("Toll das du bereit bist etwas neues zu entdecken. Lege los in dem du auf ein Bild deiner Wahl klickst und entdecke ein neues Reiseziel für dich!   Viel Spaß =)");
+      }
+    </script>
+   
+    </br>
+    <section class="vierbilder">
+        <div class="example">
+            <a href="Südafrika.html">
+            <img src="https://cdn.pixabay.com/photo/2019/07/02/10/25/giraffe-4312090_960_720.jpg"/>
+            <div class="content">
+              <div class="text">Südafrika</div>
+            </div> </a>
+        </div>
+        <div class="example">
+            <a href="Indien.html">
+            <img src="https://cdn.pixabay.com/photo/2018/09/04/16/48/taj-mahal-3654227_960_720.jpg"/>
+            <div class="content">
+              <div class="text">Indien</div>
+            </div></a>
+        </div>
+        <div class="example">
+            <a href="Australien.html">
+            <img src="https://cdn.pixabay.com/photo/2014/05/26/09/58/sydney-opera-house-354375_960_720.jpg"/>
+            <div class="content">
+              <div class="text">Australien</div>
+            </div></a>
+        </div>
+        <div class="example">
+            <a href="Brasilien.html">
+            <img src="https://cdn.pixabay.com/photo/2020/01/31/21/25/brazil-4809011_960_720.jpg"/>
+            <div class="content">
+              <div class="text">Brasilien</div>
+            </div></a>
+        </div>
+
+    </section>
+
+</body>
+</html>
